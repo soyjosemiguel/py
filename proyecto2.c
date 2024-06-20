@@ -275,7 +275,7 @@ int main (void){
     inicio();
     insert(12, 18, "Hombre", 65.4 , 1.75, 78.5, 29.4, 12.4, 6, 3, 10);
     show();
-    struct fisica *raiz = NULL
+    struct fisica *raiz = NULL;
     registro_actividad("Hombre", 65.4, 18, 175);
     show_arbol(raiz);
     return 0;
